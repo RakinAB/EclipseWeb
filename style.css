@@ -1,15 +1,15 @@
-
-body{
+body {
     margin: 0;
 }
 
-.home{
+.home {
     height: 765px;
     background-image: url("homepage.png");
     background-repeat: no-repeat;
     background-position: center;
 }
-.box{
+
+.box {
     position: absolute, fixed;
     width: 100%;
     height: 130px;
@@ -19,7 +19,7 @@ body{
     background: rgba(30, 30, 30, 0.63)
 }
 
-.Title{
+.Title {
     position: absolute;
     left: 21px;
     top: 17px;
@@ -33,7 +33,7 @@ body{
     color: #F4C13E;
 }
 
-.Time{
+.Time {
     position: absolute;
     width: 629px;
     height: 92px;
@@ -49,12 +49,13 @@ body{
     color: #F4C13E;
 }
 
-.OccurAndFreq{
+.OccurAndFreq {
     height: 765px;
 }
 
-.section1{
-    text-align: center;;
+.section1 {
+    text-align: center;
+    ;
     width: 100%;
     height: 63;
 
@@ -73,6 +74,7 @@ body{
     text-align: center;
     overflow: hidden;
 }
+
 .slides {
     display: flex;
     text-align: center;
@@ -85,24 +87,28 @@ body{
     scroll-snap-type: mandatory;
     */
 }
+
 .slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
+
 .slides::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 10px;
 }
+
 .slides::-webkit-scrollbar-track {
     background: transparent;
 }
-.slides > div {
+
+.slides>div {
     scroll-snap-align: center;
     flex-shrink: 0;
     width: 80%;
     height: 400px;
     margin-right: 100px;
-    border-radius:5%;
+    border-radius: 5%;
     background: #eee;
     transform-origin: center center;
     transform: scale(1);
@@ -113,8 +119,8 @@ body{
     align-items: center;
     font-size: 100px;
 }
-    
-    
+
+
 .author-info {
     background: rgba(0, 0, 0, 0.75);
     color: white;
@@ -126,15 +132,17 @@ body{
     width: 100%;
     margin: 0;
 }
+
 .author-info a {
-        color: white;
-    }
-.slides img{
+    color: white;
+}
+
+.slides img {
     border-radius: 5%;
     width: 100%;
     height: 100%;
 }
-    
+
 .s1 {
     object-fit: fill;
     position: absolute;
@@ -143,7 +151,8 @@ body{
     width: 100%;
     height: 100%;
 }
-.slider > a {
+
+.slider>a {
     display: inline-flex;
     width: 5rem;
     height: 5rem;
@@ -155,18 +164,22 @@ body{
     margin: 0 0 0.5rem 0;
     position: relative;
 }
-.slider > a:active {
+
+.slider>a:active {
     top: 1px;
 }
-.slider > a:focus {
+
+.slider>a:focus {
     background: #000;
 }
- /* Don't need button navigation */
+
+/* Don't need button navigation */
 @supports (scroll-snap-type) {
-    .slider > a {
-    display: none;
+    .slider>a {
+        display: none;
     }
 }
+
 .sliderBody {
     position: relative;
     top: 60px;
@@ -176,11 +189,11 @@ body{
     font-family: 'Karantina';
 }
 
-.PictureSlide{
+.PictureSlide {
     height: 765px;
 }
 
-.section2{
+.section2 {
     text-align: center;
     width: 100%;
     height: 63;
@@ -194,7 +207,7 @@ body{
     color: #D3B697;
 }
 
-.informationFrame{
+.informationFrame {
     position: absolute;
     width: 1213px;
     height: 665px;
@@ -203,14 +216,54 @@ body{
     overflow-x: scroll;
 }
 
-.solarOccurance{
+
+.solarOccurance {
     position: absolute;
     width: 330px;
     height: 570px;
     left: 22px;
     top: 48px;
-    
-    background-color: #FFFFFF;
+
+    border-radius: 50px;
+
+    background-color: #8B8C8E;
+}
+
+.solarOccurance p {
+    position: absolute;
+    width: 182px;
+    height: 116px;
+    left: 74px;
+    top: 169px;
+
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    color: white;
+
+}
+
+
+.informationFrame h1 {
+    position: absolute;
+    width: 296px;
+    height: 81px;
+    left: 16px;
+    top: 346px;
+
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 57px;
+    line-height: 81px;
+    text-align: center;
+    color: #D3B697;
 }
 
 .informationFrame img {
@@ -221,12 +274,13 @@ body{
     top: 398px;
 }
 
-.informationFrame p{
+.informationFrame p {
     position: absolute;
     width: 182px;
     height: 116px;
     left: 74px;
     top: 169px;
+
 
     font-family: 'Karantina';
     font-style: normal;
@@ -235,17 +289,34 @@ body{
     line-height: 30px;
     text-align: center;
 
-    color: #000000;
-}
-.solarDuration{
-    position: absolute;
-width: 330px;
-height: 570px;
-left: 377px;
-top: 48px;
 
-background: #FFFFFF;
+    color: white;
 }
+
+.solarDuration {
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 377px;
+    top: 48px;
+
+    border-radius: 50px;
+
+    background: #6E778B;
+}
+
+
+.solarDuration p {
+    position: absolute;
+    width: 306px;
+    height: 73px;
+    left: 12px;
+    top: 180px;
+
+    color: white;
+}
+
+
 
 .solarPerYear {
     position: absolute;
@@ -254,74 +325,129 @@ background: #FFFFFF;
     left: 732px;
     top: 48px;
 
-    background: #FFFFFF;
+    border-radius: 50px;
+
+    background: #54678E;
+}
+
+.solarPerYear p {
+    position: absolute;
+    width: 330px;
+    height: 121px;
+    left: 3px;
+    top: 180px;
+
+    color: white;
 
 }
 
-.WhereSolarEclipses{
+.WhereSolarEclipses {
     position: absolute;
     width: 330px;
     height: 571px;
     left: 1092px;
     top: 47px;
 
-    background: #FFFFFF;
+    border-radius: 50px;
 
+    background: #435B8C;
 }
 
-.WhenTotalEclipse{
 
+.WhereSolarEclipses p {
+    position: absolute;
+    width: 313px;
+    height: 158px;
+    left: 4px;
+    top: 182px;
+
+    color: white;
+}
+
+
+
+.WhenTotalEclipse {
     position: absolute;
     width: 330px;
     height: 570px;
     left: 1455px;
     top: 48px;
 
-    background: #FFFFFF;
+    border-radius: 50px;
 
+    background: #335292;
 }
 
-.WhenTotalEclipse img {
-    position: absolute;
-    width: 185px;
-    height: 185px;
-    left: 70px;
-    top: 303px;
 
-
-}
-
-.Three-D-Eclipse p{
+.WhenTotalEclipse p {
     position: absolute;
     width: 321px;
     height: 117px;
     left: 4px;
     top: 191px;
+    color: white;
+}
 
-    font-family: 'Karantina';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    text-align: center;
+.WhenTotalEclipse img {
+    position: absolute;
+    width: 187px;
+    height: 179px;
+    left: 71px;
+    top: 301px;
+
 
 }
 
-.Three-D-Eclipse{
+
+.Three-D-Eclipse {
     position: absolute;
-    width: 320px;
+    width: 330px;
     height: 571px;
-    left: 1843px;
+    left: 1818px;
     top: 47px;
 
-    background: #FFFFFF;
+    border-radius: 50px;
+
+    background: #0A358A;
 }
 
-.ScientistsKnow{
+
+.Three-D-Eclipse p {
+    position: absolute;
+    width: 321px;
+    height: 117px;
+    left: 4px;
+    top: 100px;
+    color: white;
+}
+
+
+.Three-D-Eclipse h1 {
+    position: absolute;
+    width: 200px;
+    height: 81px;
+    left: 77px;
+    top: 343px;
+
+    font-family: "Raleway";
+}
+
+
+.Three-D-Eclipse a:link {
+    color: #D3B697
+}
+
+
+.Three-D-Eclipse a:visited {
+    color: #D3B697
+}
+
+
+.ScientistsKnow {
     height: 765px;
 }
 
-.section3{
+.section3 {
     text-align: center;
     width: 100%;
     height: 832px;
@@ -336,12 +462,12 @@ background: #FFFFFF;
     color: #D3B697;
 }
 
-.LunarVsSolar{
+.LunarVsSolar {
     height: 765px;
     background-image: url("space.png");
 }
 
-.Lunar{
+.Lunar {
     position: absolute;
     width: 329px;
     height: 92px;
@@ -354,14 +480,14 @@ background: #FFFFFF;
     font-size: 96px;
     line-height: 97px;
 
-    color:#D3B697;
+    color: #D3B697;
 }
 
-.Lunar img{
+.Lunar img {
     border-radius: 210.5px;
 }
 
-.Solar{
+.Solar {
     position: absolute;
     width: 329px;
     height: 92px;
@@ -376,19 +502,19 @@ background: #FFFFFF;
 
     border-radius: 210.5px;
 
-    color:#D3B697;
+    color: #D3B697;
 }
 
-.Solar img{
+.Solar img {
     border-radius: 210.5px;
 }
 
-.SeasonsAndBiYearly{
+.SeasonsAndBiYearly {
     height: 765px;
 }
 
 
-.section4{
+.section4 {
     text-align: center;
     width: 100%;
     height: 63;
@@ -403,8 +529,8 @@ background: #FFFFFF;
     color: #D3B697;
 }
 
-.publishedBy{
-    position:relative;
+.publishedBy {
+    position: relative;
     text-align: center;
     font-family: "Raleway";
     font-size: 20px;
@@ -415,7 +541,7 @@ background: #FFFFFF;
     color: #ffffff;
 }
 
-.earth-planet{
+.earth-planet {
     position: relative;
     width: 100px;
     height: 100px;
@@ -423,13 +549,13 @@ background: #FFFFFF;
     left: 150px;
 }
 
-.footerInfo{
+.footerInfo {
     width: 100%;
     height: 267px;
     top: 5133px;
     left: 5px;
 
-    
+
 }
 
 .menu-header {
@@ -453,6 +579,7 @@ background: #FFFFFF;
 .footer-link:hover {
     text-decoration: underline;
 }
+
 .footer-link {
     text-decoration: none;
     font-size: 20px;
@@ -474,9 +601,9 @@ background: #FFFFFF;
     gap: 50px;
     left: 400px;
     top: 60px;
-  }
+}
 
-.social-1{
+.social-1 {
     position: absolute;
     width: 12px;
     height: 22px;
@@ -484,15 +611,15 @@ background: #FFFFFF;
     left: 1080px;
 }
 
-.social-2{
-    position:absolute;
+.social-2 {
+    position: absolute;
     width: 24px;
     height: 24px;
     top: 4725px;
     left: 1125px;
 }
 
-.social-3{
+.social-3 {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -500,7 +627,7 @@ background: #FFFFFF;
     left: 1185px;
 }
 
-.overlap-group-2{
+.overlap-group-2 {
     position: absolute;
     top: 4675px;
     right: 200px;
