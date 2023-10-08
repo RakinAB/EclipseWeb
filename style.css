@@ -132,7 +132,7 @@ body{
 .slides img{
     border-radius: 5%;
     width: 100%;
-        eight: 100%;
+    height: 100%;
 }
     
 .s1 {
@@ -175,8 +175,6 @@ body{
     justify-content: center;
     font-family: 'Karantina';
 }
-    
-
 
 .PictureSlide{
     height: 765px;
@@ -340,6 +338,7 @@ background: #FFFFFF;
 
 .LunarVsSolar{
     height: 765px;
+    background-image: url(space.png);
 }
 
 .Lunar{
@@ -358,6 +357,10 @@ background: #FFFFFF;
     color:#D3B697;
 }
 
+.Lunar img{
+    border-radius: 210.5px;
+}
+
 .Solar{
     position: absolute;
     width: 329px;
@@ -371,7 +374,13 @@ background: #FFFFFF;
     font-size: 96px;
     line-height: 97px;
 
+    border-radius: 210.5px;
+
     color:#D3B697;
+}
+
+.Solar img{
+    border-radius: 210.5px;
 }
 
 .SeasonsAndBiYearly{
@@ -421,7 +430,7 @@ background: #FFFFFF;
     top: 5133px;
     left: 5px;
 
-    background-color: ;
+    
 }
 
 .menu-header {
