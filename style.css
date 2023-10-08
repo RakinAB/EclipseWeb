@@ -1,4 +1,14 @@
 
+body{
+    margin: 0;
+}
+
+.home{
+    height: 765px;
+    background-image: url("homepage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .box{
     position: absolute;
     width: 100%;
@@ -37,4 +47,345 @@
     line-height: 97px;
 
     color: #F4C13E;
+}
+
+.OccurAndFreq{
+    height: 765px;
+}
+
+.section1{
+    text-align: center;;
+    width: 100%;
+    height: 63;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.PictureSlide{
+    height: 765px;
+}
+
+.section2{
+    text-align: center;
+    width: 100%;
+    height: 63;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.informationFrame{
+    position: absolute;
+    width: 1213px;
+    height: 665px;
+    left: 54px;
+    top: 1600px;
+    overflow-x: scroll;
+}
+
+.solarOccurance{
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 22px;
+    top: 48px;
+    
+    background-color: #FFFFFF;
+}
+
+.informationFrame img {
+    position: absolute;
+    width: 280px;
+    height: 102px;
+    left: 33px;
+    top: 398px;
+}
+
+.informationFrame p{
+    position: absolute;
+    width: 182px;
+    height: 116px;
+    left: 74px;
+    top: 169px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+.solarDuration{
+    position: absolute;
+width: 330px;
+height: 570px;
+left: 377px;
+top: 48px;
+
+background: #FFFFFF;
+}
+
+.solarPerYear {
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 732px;
+    top: 48px;
+
+    background: #FFFFFF;
+
+}
+
+.WhereSolarEclipses{
+    position: absolute;
+    width: 330px;
+    height: 571px;
+    left: 1092px;
+    top: 47px;
+
+    background: #FFFFFF;
+
+}
+
+.WhenTotalEclipse{
+
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 1455px;
+    top: 48px;
+
+    background: #FFFFFF;
+
+}
+
+.WhenTotalEclipse img {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 70px;
+    top: 303px;
+
+
+}
+
+.Three-D-Eclipse p{
+    position: absolute;
+    width: 321px;
+    height: 117px;
+    left: 4px;
+    top: 191px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.Three-D-Eclipse{
+    position: absolute;
+    width: 320px;
+    height: 571px;
+    left: 1843px;
+    top: 47px;
+
+    background: #FFFFFF;
+}
+
+.ScientistsKnow{
+    height: 765px;
+}
+
+.section3{
+    text-align: center;
+    width: 100%;
+    height: 832px;
+    top: 1695px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.LunarVsSolar{
+    height: 765px;
+    background-image: url("space.png");
+}
+
+.Lunar{
+    position: absolute;
+    width: 329px;
+    height: 92px;
+    left: 20%;
+    top: 3100px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color:#D3B697;
+}
+
+.Solar{
+    position: absolute;
+    width: 329px;
+    height: 92px;
+    left: 65%;
+    top: 3100px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color:#D3B697;
+}
+
+.SeasonsAndBiYearly{
+    height: 765px;
+}
+
+
+.section4{
+    text-align: center;
+    width: 100%;
+    height: 63;
+    top: 3359px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+}
+
+.footer{
+    height: 150px;
+}
+
+.publishedBy{
+    text-align: center;
+    width: 100%;
+    height: 63;
+    top: 7px;
+
+    color: #ffffff;
+}
+
+.footerInfo{
+    width: 100%;
+    height: 267px;
+    top: 5133px;
+    left: 5px;
+
+    background-color: var(--cold-grey90);
+}
+
+.menu-header {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    top: 60px;
+    left: 218px;
+}
+
+.menu-header {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    top: 60px;
+    left: 218px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-link:visited {
+    color: #800080;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-link:visited {
+    color: #800080;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.menu-footer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    top: 144px;
+    left: 200px;
+    padding: -15px;
+  }
+
+.social_1{
+
+    width: 12px;
+    height: 22px;
+    top: 59px;
+    left: 1015px;
+}
+
+.social_2{
+
+    width: 24px;
+    height: 24px;
+    top: 58px;
+    left: 1061px;
+}
+
+.social_3{
+
+  width: 24px;
+  height: 24px;
+  top: 58px;
+  left: 1117px;
+}
+
+.social_4{
+
+  width: 22px;
+  height: 22px;
+  top: 59px;
+  left: 1176px;
+  background-image: url(./img/instagram.svg);
+  background-size: 100% 100%;
 }
