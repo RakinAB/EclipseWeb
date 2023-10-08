@@ -19,6 +19,12 @@ body{
     background: rgba(30, 30, 30, 0.63)
 }
 
+.ChatBot{
+    text-align: center;
+    color:#ffffff;
+    font-size: xx-large;
+}
+
 .Title{
     position: absolute;
     left: 21px;
