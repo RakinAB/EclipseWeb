@@ -1,0 +1,68 @@
+.Title{
+    position: absolute;
+    width: 329px;
+    height: 92px;
+    left: 21px;
+    top: 17px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #F4C13E;
+}
+
+.Time{
+    position: absolute;
+
+    width: 329px;
+    height: 92px;
+    left: 874px;
+    top: 17px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #F4C13E;
+}
+
+.box{
+    position: absolute;
+    width: 1440px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(30, 30, 30, 0.63)
+}
+
+.OccurAndFreq{
+    position: absolute;
+    width: auto;
+    height: 832px;
+    left: 0px;
+
+}
+
+.OccurAnFreq .section1{
+    position: absolute;
+    width: 1440px;
+    height: 63;
+    left: 120px;
+    top: 31px;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 97px;
+
+    color: #D3B697;
+
+    border: 1px solid #000000;
+}

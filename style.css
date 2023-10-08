@@ -1,0 +1,445 @@
+.homepage {
+  background-color: #32334f;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -30px;
+}
+
+.homepage .div {
+  background-color: #32334f;
+  overflow: hidden;
+  width: 1280px;
+  height: 5353px;
+  position: relative;
+}
+
+.homepage .overlap {
+  position: absolute;
+  width: 1290px;
+  height: 4544px;
+  top: 832px;
+  left: -5px;
+}
+
+.homepage .eclipse-occurrence {
+  position: absolute;
+  width: 1280px;
+  height: 832px;
+  top: 0;
+  left: 5px;
+
+}
+
+.homepage .text-wrapper {
+  position: center;
+  width: 1143px;
+  top: 30px;
+  left: 119px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #d3b697;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .picture-slides-info {
+  position: absolute;
+  width: 1290px;
+  height: 842px;
+  top: 827px;
+  left: 0;
+
+}
+
+.homepage .text-wrapper-2 {
+  position: absolute;
+  top: 20px;
+  left: 284px;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #d3b697;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .p {
+  position: absolute;
+  width: 759px;
+  top: 154px;
+  left: 219px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .how-scientists-know {
+  position: absolute;
+  width: 1290px;
+  height: 842px;
+  top: 1659px;
+  left: 0;
+
+}
+
+.homepage .text-wrapper-3 {
+  position: absolute;
+  width: 842px;
+  top: 36px;
+  left: 179px;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #d3b697;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.EclipseHeader{
+  position: absolute;
+width: 329px;
+height: 92px;
+left: 21px;
+top: 17px;
+
+font-family: 'Karantina';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 97px;
+
+color: #F4C13E;
+
+}
+
+
+.TimeHeader{
+  position: absolute;
+width: 329px;
+height: 92px;
+left: 874px;
+top: 17px;
+
+font-family: 'Karantina';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 97px;
+
+color: #F4C13E;
+
+}
+.homepage .lunar-solar-eclipse {
+  position: absolute;
+  width: 1290px;
+  height: 842px;
+  top: 2491px;
+  left: 0;
+  overflow: hidden;
+
+  background-image: url(./img/lunar-solar-eclipse.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 832px;
+  
+  
+  background-image: url("homepage.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+
+.homepage .text-wrapper-4 {
+  position: absolute;
+  width: 444px;
+  top: 65px;
+  left: 68px;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #d3b697;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .overlap-group {
+  position: absolute;
+  width: 857px;
+  height: 668px;
+  top: 65px;
+  left: 772px;
+}
+
+.homepage .text-wrapper-5 {
+  position: absolute;
+  width: 842px;
+  top: 0;
+  left: 15px;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #d3b697;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .frame {
+  position: absolute;
+  width: 436px;
+  height: 550px;
+  top: 118px;
+  left: 0;
+}
+
+.homepage .img {
+  position: absolute;
+  width: 421px;
+  height: 581px;
+  top: 190px;
+  left: 68px;
+}
+
+.homepage .eclipse-seasons {
+  position: absolute;
+  width: 1290px;
+  height: 842px;
+  top: 3323px;
+  left: 0;
+
+}
+
+.homepage .text-wrapper-6 {
+  position: absolute;
+  width: 957px;
+  top: 43px;
+  left: 112px;
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #d3b697;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .bottom-tab-info {
+  position: absolute;
+  width: 1280px;
+  height: 384px;
+  top: 4160px;
+  left: 5px;
+}
+
+.homepage .div-wrapper {
+  position: relative;
+  height: 354px;
+  background-color: #0a0e20;
+}
+
+.homepage .text-wrapper-7 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Karantina-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.textContainer {
+  position: absolute;
+  width: 329px;
+  height: 92px;
+  left: 21px;
+  top: 17px;
+
+  font-family: 'Karantina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 97px;
+
+  color: #F4C13E;
+
+}
+
+.homepage .footer {
+  position: absolute;
+  width: 1280px;
+  height: 193px;
+  top: 4333px;
+  left: 5px;
+  background-color: var(--cold-grey90);
+}
+
+.homepage .menu-header {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 60px;
+  left: 218px;
+}
+
+.homepage .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .menu-footer {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 144px;
+  left: 200px;
+  padding: -15px;
+}
+
+.homepage .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .social {
+  position: absolute;
+  width: 12px;
+  height: 22px;
+  top: 59px;
+  left: 1015px;
+}
+
+.homepage .social-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 58px;
+  left: 1061px;
+}
+
+.homepage .social-3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 58px;
+  left: 1117px;
+}
+
+.homepage .social-4 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 59px;
+  left: 1176px;
+  background-image: url(./img/instagram.svg);
+  background-size: 100% 100%;
+}
+
+.homepage .line {
+  position: absolute;
+  width: 950px;
+  height: 4px;
+  top: 112px;
+  left: 188px;
+  object-fit: cover;
+}
+
+.homepage .search {
+  position: absolute;
+  width: 202px;
+  height: 28px;
+  top: 59px;
+  left: 760px;
+}
+
+.homepage .overlap-group-2 {
+  position: relative;
+  height: 27px;
+
+}
+
+.homepage .input {
+  width: 202px;
+  padding: 4px 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .union {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 4px;
+  left: 172px;
+}
+
+.homepage .copyright-all-rights {
+  position: absolute;
+  top: 131px;
+  left: 823px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage .earth-planet {
+  position: absolute;
+  width: 101px;
+  height: 95px;
+  top: 41px;
+  left: 49px;
+  object-fit: cover;
+}
+
+
+
+
