@@ -338,7 +338,7 @@ background: #FFFFFF;
 
 .LunarVsSolar{
     height: 765px;
-    background-image: url(space.png);
+    background-image: url("space.png");
 }
 
 .Lunar{
@@ -403,15 +403,14 @@ background: #FFFFFF;
     color: #D3B697;
 }
 
-.footer{
-    height: 150px;
-}
-
 .publishedBy{
+    position:relative;
     text-align: center;
+    font-family: "Raleway";
+    font-size: 20px;
     width: 100%;
     height: 63;
-    top: 7px;
+    top: 15px;
 
     color: #ffffff;
 }
