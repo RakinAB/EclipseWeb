@@ -12,9 +12,9 @@ body {
     border-bottom-left-radius: 30px;
 }
 
-.ChatBot{
+.ChatBot {
     text-align: center;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 60px;
 }
 
@@ -22,24 +22,29 @@ body {
     width: 100%;
     height: 80%;
     display: flex;
-    align-items: center; /* Vertically center align items */
+    align-items: center;
+    /* Vertically center align items */
 }
 
-.chatBox img{
+.chatBox img {
     float: left;
     width: 50%;
     height: 100%;
 }
 
 .chat-content {
-    width: 100%; /* Adjust the width of the chat content as needed */
+    width: 100%;
+    /* Adjust the width of the chat content as needed */
     height: 100%;
-    margin-left: auto; /* Push the chat content to the right */
-    padding: 20px; /* Add some padding for spacing */
-    box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: auto;
+    /* Push the chat content to the right */
+    padding: 20px;
+    /* Add some padding for spacing */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
 }
 
-#chat-form{
+#chat-form {
     width: 100%;
     font-size: 25px;
     background-color: gray;
@@ -47,7 +52,7 @@ body {
     border-width: 10px;
 }
 
-#response{
+#response {
     position: relative;
     width: 100%;
     font-size: 30px;
@@ -56,7 +61,7 @@ body {
     color: #eee;
     background-color: gray;
     border-color: #000;
-    
+
 }
 
 .box {
@@ -105,7 +110,7 @@ body {
 
 .section1 {
     text-align: center;
-    
+
     width: 100%;
     height: 63;
 
@@ -239,7 +244,7 @@ body {
     font-family: 'Karantina';
 }
 
-.sliderButton{
+.sliderButton {
     color: #F4C13E;
     font-family: "Raleway";
 }
@@ -521,21 +526,21 @@ body {
     width: 1213px;
     height: 665px;
     left: 90px;
-    top: 2400px;
+    top: 2450px;
     overflow-x: scroll;
-    }
-    
-    
-    .informationFrame2 h1 {
+}
+
+
+.informationFrame2 h1 {
     position: absolute;
     width: 296px;
     height: 81px;
     left: 16px;
     top: 40px;
-    
-    
-    
-    
+
+
+
+
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400px;
@@ -543,79 +548,79 @@ body {
     line-height: 45px;
     text-align: center;
     color: #D3B697;
-    }
-    
-    
-    .informationFrame2 p {
+}
+
+
+.informationFrame2 p {
     position: absolute;
     width: 182px;
     height: 116px;
     left: 74px;
     top: 169px;
-    
-    
-    
-    
+
+
+
+
     font-family: 'Karantina';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    
-    
-    
-    
+
+
+
+
     color: white;
-    }
-    
-    
-    .OrbitalMechanics{
+}
+
+
+.OrbitalMechanics {
     position: absolute;
     width: 330px;
     height: 540px;
     left: 22px;
     top: 48px;
-    
-    
+
+
     border-radius: 50px;
-    
-    
+
+
     background-color: #8B8C8E;
-    }
-    
-    
-    .EclipseCycles {
+}
+
+
+.EclipseCycles {
     position: absolute;
     width: 330px;
     height: 540px;
     left: 377px;
     top: 48px;
-    
-    
+
+
     border-radius: 50px;
-    
-    
+
+
     background: #6E778B;
-    }
-    
-    
-    .AstronomicalAlg{
+}
+
+
+.AstronomicalAlg {
     position: absolute;
     width: 330px;
     height: 540px;
     left: 732px;
     top: 48px;
-    
-    
+
+
     border-radius: 50px;
-    
-    
+
+
     background: #54678E;
-    }
-    
-    
-    .Epheremerides {
+}
+
+
+.Epheremerides {
     position: absolute;
     width: 330px;
     height: 540px;
@@ -623,21 +628,21 @@ body {
     top: 47px;
     border-radius: 50px;
     background: #435B8C;
-    }
-    
-    
-    .ComputerEm {
+}
+
+
+.ComputerEm {
     position: absolute;
     width: 330px;
     height: 540px;
     left: 1455px;
-    top: 48px;  
+    top: 48px;
     border-radius: 50px;
     background: #335292;
-    }
-    
-    
-    .ObserveAndCorrect {
+}
+
+
+.ObserveAndCorrect {
     position: absolute;
     width: 330px;
     height: 540px;
@@ -645,10 +650,10 @@ body {
     top: 47px;
     border-radius: 50px;
     background: #0A358A;
-    }
-    
-    
-    .GlobalCollab {
+}
+
+
+.GlobalCollab {
     position: absolute;
     width: 330px;
     height: 540px;
@@ -656,10 +661,10 @@ body {
     top: 47px;
     border-radius: 50px;
     background: #0A358A;
-    }
-    
-    
-    .History {
+}
+
+
+.History {
     position: absolute;
     width: 330px;
     height: 540px;
@@ -667,9 +672,9 @@ body {
     top: 47px;
     border-radius: 50px;
     background: #0A358A;
-    }
-    
-    .SpaceMissions {
+}
+
+.SpaceMissions {
     position: absolute;
     width: 330px;
     height: 540px;
@@ -677,8 +682,8 @@ body {
     top: 47px;
     border-radius: 50px;
     background: #0A358A;
-    }
-    
+}
+
 
 .LunarVsSolar {
     height: 765px;
