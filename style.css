@@ -4,9 +4,12 @@ body {
 
 .home {
     height: 765px;
-    background-image: url("homepage.png");
+    background-image: url("images/homepage.png");
     background-repeat: no-repeat;
     background-position: center;
+
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .ChatBot{
@@ -243,6 +246,7 @@ body {
 
 .PictureSlide {
     height: 765px;
+    border-radius: 30px;
 }
 
 .section2 {
@@ -502,7 +506,6 @@ body {
     text-align: center;
     width: 100%;
     height: 832px;
-    top: 1695px;
 
     font-family: 'Karantina';
     font-style: normal;
@@ -518,157 +521,169 @@ body {
     width: 1213px;
     height: 665px;
     left: 90px;
-    top: 2400px;
+    top: 2450px;
     overflow-x: scroll;
-}
-
-.informationFrame2 h1 {
+    }
+    
+    
+    .informationFrame2 h1 {
     position: absolute;
     width: 296px;
     height: 81px;
     left: 16px;
-    top: 10px;
-
-
+    top: 40px;
+    
+    
+    
+    
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400px;
-    font-size: 45px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 45px;
     text-align: center;
     color: #D3B697;
-}
-
-.informationFrame2 p {
+    }
+    
+    
+    .informationFrame2 p {
     position: absolute;
     width: 182px;
     height: 116px;
     left: 74px;
     top: 169px;
-
-
+    
+    
+    
+    
     font-family: 'Karantina';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-
-
+    
+    
+    
+    
     color: white;
-}
-
-.OrbitalMechanics{
+    }
+    
+    
+    .OrbitalMechanics{
     position: absolute;
     width: 330px;
-    height: 570px;
+    height: 540px;
     left: 22px;
     top: 48px;
-
+    
+    
     border-radius: 50px;
-
+    
+    
     background-color: #8B8C8E;
-}
-
-.EclipseCycles {
+    }
+    
+    
+    .EclipseCycles {
     position: absolute;
     width: 330px;
-    height: 570px;
+    height: 540px;
     left: 377px;
     top: 48px;
-
+    
+    
     border-radius: 50px;
-
+    
+    
     background: #6E778B;
-}
-
-.AstronomicalAlg{
+    }
+    
+    
+    .AstronomicalAlg{
     position: absolute;
     width: 330px;
-    height: 570px;
+    height: 540px;
     left: 732px;
     top: 48px;
-
+    
+    
     border-radius: 50px;
-
+    
+    
     background: #54678E;
-}
-
-.Epheremerides {
+    }
+    
+    
+    .Epheremerides {
     position: absolute;
     width: 330px;
-    height: 571px;
+    height: 540px;
     left: 1092px;
     top: 47px;
-
     border-radius: 50px;
-
     background: #435B8C;
-}
-
-.ComputerEm {
+    }
+    
+    
+    .ComputerEm {
     position: absolute;
     width: 330px;
-    height: 570px;
+    height: 540px;
     left: 1455px;
-    top: 48px;
-
+    top: 48px;  
     border-radius: 50px;
-
     background: #335292;
-}
-
-.ObserveAndCorrect {
+    }
+    
+    
+    .ObserveAndCorrect {
     position: absolute;
     width: 330px;
-    height: 571px;
+    height: 540px;
     left: 1818px;
     top: 47px;
-
     border-radius: 50px;
-
     background: #0A358A;
-}
-
-.GlobalCollab {
+    }
+    
+    
+    .GlobalCollab {
     position: absolute;
     width: 330px;
-    height: 571px;
+    height: 540px;
     left: 1818px;
     top: 47px;
-
     border-radius: 50px;
-
     background: #0A358A;
-}
-
-.History {
+    }
+    
+    
+    .History {
     position: absolute;
     width: 330px;
-    height: 571px;
+    height: 540px;
     left: 1818px;
     top: 47px;
-
     border-radius: 50px;
-
     background: #0A358A;
-}
-
-.SpaceMissions {
+    }
+    
+    .SpaceMissions {
     position: absolute;
     width: 330px;
-    height: 571px;
+    height: 540px;
     left: 1818px;
     top: 47px;
-
     border-radius: 50px;
-
     background: #0A358A;
-}
+    }
+    
 
 .LunarVsSolar {
     height: 765px;
-    background-image: url("space.png");
+    background-image: url("images/space.png");
+    border-radius: 30px;
 }
 
 .Lunar {
