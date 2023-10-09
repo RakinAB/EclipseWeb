@@ -44,12 +44,12 @@
                         <div id="slide-5"><img src="Slides5.png" class="s1"></div>
                         <div id="slide-6"><img src="Slides6.png" class="s1"></div>
                     </div>
-                    <a href="#slide-1">1</a>
-                    <a href="#slide-2">2</a>
-                    <a href="#slide-3">3</a>
-                    <a href="#slide-4">4</a>
-                    <a href="#slide-5">5</a>
-                    <a href="#slide-6">6</a>
+                    <a href="#slide-1" class="sliderButton" style="background-color: #292941;">1</a>
+                    <a href="#slide-2" class="sliderButton" style="background-color: #292941;">2</a>
+                    <a href="#slide-3" class="sliderButton" style="background-color: #292941;">3</a>
+                    <a href="#slide-4" class="sliderButton" style="background-color: #292941;">4</a>
+                    <a href="#slide-5" class="sliderButton" style="background-color: #292941;">5</a>
+                    <a href="#slide-6" class="sliderButton" style="background-color: #292941;">6</a>
                 </div>
         </div>
     </section>
@@ -111,6 +111,20 @@
     <!--Eclipse Seasons and Bi-Yearly-->
     <section class="SeasonsAndBiYearly">
         <h3 class="section4">Eclipse Seasons? Bi-Anually?</h3>
+        <h1 class="ChatBot">ChatBot</h1>
+        <form id="chat-form">
+            <label for="prompt">Enter your prompt:</label>
+            <input type="text" id="prompt" name="prompt" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="response"></div> 
+        <div class="section4">
+            <img src="scientist.png" alt="solar">
+        </div>
+
+    <!-- Link to the external JavaScript file -->
+        <script src="script.js"></script>
     </section>
 
     <!--Footer-->
