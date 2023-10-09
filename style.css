@@ -100,6 +100,23 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 97px;
+    text-decoration: underline;
+
+    color: #F4C13E;
+}
+
+.Countdown{
+    position: absolute;
+    width: 400px;
+    height: 92px;
+    left: 1000px;
+    top: 17px;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 97px;
 
     color: #F4C13E;
 }

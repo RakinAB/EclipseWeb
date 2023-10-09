@@ -1,7 +1,7 @@
 // countdown from the eclipse
 // script.js
 // Define the date and time of the next eclipse (replace with your desired date)
-const nextEclipseDate = new Date('2023-12-10T08:30:00');
+const nextEclipseDate = new Date('2024-04-08T08:30:00');
 
 function updateCountdown() {
     const now = new Date();
@@ -21,6 +21,5 @@ function updateCountdown() {
         document.getElementById('countdown').textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
     }
 }
-
 // Update the countdown every second
 setInterval(updateCountdown, 1000);
