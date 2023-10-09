@@ -12,7 +12,48 @@ body {
 .ChatBot{
     text-align: center;
     color:#ffffff;
-    font-size: xx-large;
+    font-size: 60px;
+}
+
+.chatBox {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center; /* Vertically center align items */
+}
+
+.chatBox img{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.chat-content {
+    width: 100%; /* Adjust the width of the chat content as needed */
+    height: 100%;
+    margin-left: auto; /* Push the chat content to the right */
+    padding: 20px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#chat-form{
+    width: 100%;
+    font-size: 25px;
+    background-color: gray;
+    border-color: black;
+    border-width: 10px;
+}
+
+#response{
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+    height: 80%;
+    overflow-y: scroll;
+    color: #eee;
+    background-color: gray;
+    border-color: #000;
+    
 }
 
 .box {
@@ -61,7 +102,7 @@ body {
 
 .section1 {
     text-align: center;
-    ;
+    
     width: 100%;
     height: 63;
 
@@ -516,6 +557,9 @@ body {
 }
 
 .SeasonsAndBiYearly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 765px;
 }
 
