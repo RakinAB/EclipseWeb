@@ -236,6 +236,11 @@ body {
     font-family: 'Karantina';
 }
 
+.sliderButton{
+    color: #F4C13E;
+    font-family: "Raleway";
+}
+
 .PictureSlide {
     height: 765px;
 }
@@ -292,7 +297,6 @@ body {
     text-align: center;
 
     color: white;
-
 }
 
 
@@ -507,6 +511,159 @@ body {
     line-height: 97px;
 
     color: #D3B697;
+}
+
+.informationFrame2 {
+    position: absolute;
+    width: 1213px;
+    height: 665px;
+    left: 90px;
+    top: 2400px;
+    overflow-x: scroll;
+}
+
+.informationFrame2 h1 {
+    position: absolute;
+    width: 296px;
+    height: 81px;
+    left: 16px;
+    top: 10px;
+
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 45px;
+    line-height: 40px;
+    text-align: center;
+    color: #D3B697;
+}
+
+.informationFrame2 p {
+    position: absolute;
+    width: 182px;
+    height: 116px;
+    left: 74px;
+    top: 169px;
+
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+
+    color: white;
+}
+
+.OrbitalMechanics{
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 22px;
+    top: 48px;
+
+    border-radius: 50px;
+
+    background-color: #8B8C8E;
+}
+
+.EclipseCycles {
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 377px;
+    top: 48px;
+
+    border-radius: 50px;
+
+    background: #6E778B;
+}
+
+.AstronomicalAlg{
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 732px;
+    top: 48px;
+
+    border-radius: 50px;
+
+    background: #54678E;
+}
+
+.Epheremerides {
+    position: absolute;
+    width: 330px;
+    height: 571px;
+    left: 1092px;
+    top: 47px;
+
+    border-radius: 50px;
+
+    background: #435B8C;
+}
+
+.ComputerEm {
+    position: absolute;
+    width: 330px;
+    height: 570px;
+    left: 1455px;
+    top: 48px;
+
+    border-radius: 50px;
+
+    background: #335292;
+}
+
+.ObserveAndCorrect {
+    position: absolute;
+    width: 330px;
+    height: 571px;
+    left: 1818px;
+    top: 47px;
+
+    border-radius: 50px;
+
+    background: #0A358A;
+}
+
+.GlobalCollab {
+    position: absolute;
+    width: 330px;
+    height: 571px;
+    left: 1818px;
+    top: 47px;
+
+    border-radius: 50px;
+
+    background: #0A358A;
+}
+
+.History {
+    position: absolute;
+    width: 330px;
+    height: 571px;
+    left: 1818px;
+    top: 47px;
+
+    border-radius: 50px;
+
+    background: #0A358A;
+}
+
+.SpaceMissions {
+    position: absolute;
+    width: 330px;
+    height: 571px;
+    left: 1818px;
+    top: 47px;
+
+    border-radius: 50px;
+
+    background: #0A358A;
 }
 
 .LunarVsSolar {
