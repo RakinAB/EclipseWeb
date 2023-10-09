@@ -9,6 +9,12 @@ body {
     background-position: center;
 }
 
+.ChatBot{
+    text-align: center;
+    color:#ffffff;
+    font-size: xx-large;
+}
+
 .box {
     position: absolute, fixed;
     width: 100%;
