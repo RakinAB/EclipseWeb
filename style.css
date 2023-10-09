@@ -515,7 +515,7 @@ body {
     font-family: 'Karantina';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 70px;
     line-height: 97px;
 
     color: #D3B697;
@@ -526,7 +526,7 @@ body {
     width: 1213px;
     height: 665px;
     left: 90px;
-    top: 2450px;
+    top: 2350px;
     overflow-x: scroll;
 }
 
